@@ -1,33 +1,136 @@
-# Bank Management System (Python, Terminal-Based)
+# 🏦 PyBank — Python Terminal-Based Bank Management System
 
-A robust **Bank Management System** built in Python, featuring a terminal-based user interface for secure and intuitive banking management. This application allows users and admins to manage essential banking functions directly from the command line, making it highly accessible and easy to use.
+## 📌 Description
 
-## Core Features
+**PyBank** is a terminal-based banking system built using Python that simulates basic banking operations such as account management and financial transactions.
 
-- **Account Holder Information:**  
-  Store and view detailed records for each bank account, including personal and account details.
+The system allows users to create accounts, store personal information, and perform simple banking operations like deposits and withdrawals through a command-line interface.
 
-- **Interactive Terminal UI:**  
-  Navigate easily through menus and prompts in the command-line interface—no graphical environment required.
+It demonstrates **file handling**, **modular programming**, and **user interaction logic** using pure Python.
 
-- **User Bank Balance Inquiry:**  
-  Users can securely check their current account balance at any time.
+---
 
-- **User Information Management:**  
-  Display and update user profile data as needed.
+## 🚀 Features
 
-- **User Controls:**  
-  Account holders can view their information, check balances, and perform basic operations independently.
+### 👤 Account Management
 
-- **Admin Controls:**  
-  Admin users have extended privileges to manage account holders, oversee system data, and perform operation-level controls.
+* User login system
+* Create new accounts
+* Store personal details:
 
-## Highlights
+  * Name
+  * Password
+  * Age
+  * City
+* View stored account information
 
-- Simple, efficient, and user-friendly terminal interface  
-- Secure user/admin authentication and logical access controls  
-- Real-time updates and accurate reporting
+### 💰 Transaction System
 
-This project is ideal for demonstrating foundational programming concepts in Python, including file handling, user input, data management, and system security—all within a practical banking context.
+* Withdraw money
+* Deposit funds
+* Balance calculations
+* Transaction exit handling
 
-You can use this as your GitHub repository description or a README introduction for your project.
+### 📁 File-Based Storage
+
+* User information saved in text files
+* Bank balances logged to separate file
+* Persistent data storage between sessions
+
+---
+
+## 🧱 Project Structure
+
+```
+PyBank/
+│
+├── main.py
+├── info.py
+├── user_control.py
+├── user_info.txt
+├── user_bank_balance.txt
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Requirements
+
+* Python 3.x
+* No external libraries required (uses built-in Python modules only)
+
+---
+
+## ▶️ How to Run
+
+```bash
+python main.py
+```
+
+Menu Flow:
+
+```
+1. User Account
+2. User Transactions
+```
+
+### User Account
+
+* Login or create new account
+* Enter or view user details
+
+### User Transactions
+
+* Withdraw money
+* Deposit money
+* Exit transaction system
+
+---
+
+## 🧠 Concepts Demonstrated
+
+* File handling (read/write operations)
+* Modular Python programming
+* CLI-based user interfaces
+* Conditional logic & loops
+* Input validation
+* Simple financial calculations
+* Persistent data storage
+
+---
+
+## ⚠️ Notes
+
+* This is a learning project — not a real secure banking system.
+* Passwords are stored in plain text.
+* Balance is manually entered by the user.
+* No authentication encryption implemented.
+* No database integration.
+* Transaction history is basic text logging.
+
+---
+
+## 🔮 Future Improvements (Ideas)
+
+* Secure password hashing
+* Database integration (SQLite / MySQL)
+* Automatic balance tracking
+* Transaction history system
+* Account deletion feature
+* Admin dashboard
+* Multi-user authentication
+* Input validation improvements
+* GUI version using Tkinter or PyQt
+* REST API backend for real banking simulation
+
+---
+
+## 👨‍💻 Author
+
+**Dhwanit**
+Python Developer & Student
+
+---
+
+nt next? 😄
