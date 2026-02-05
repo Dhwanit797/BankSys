@@ -1,8 +1,8 @@
-# 🏦 PyBank — Python Terminal-Based Bank Management System
+# 🏦 BankSys — Python Terminal-Based Bank Management System
 
 ## 📌 Description
 
-**PyBank** is a terminal-based banking system built using Python that simulates basic banking operations such as account management and financial transactions.
+**BankSys** is a terminal-based banking system built using Python that simulates basic banking operations such as account management and financial transactions.
 
 The system allows users to create accounts, store personal information, and perform simple banking operations like deposits and withdrawals through a command-line interface.
 
